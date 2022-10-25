@@ -2,7 +2,7 @@ from urllib.request import Request, urlopen
 
 def fetch_random_dad_joke() -> str:
     '''
-    Making a random dad jok 
+    Making a random dad joke 
     '''
     req = Request(
         url="https://icanhazdadjoke.com/",
